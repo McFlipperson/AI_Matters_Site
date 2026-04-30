@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <rect width="32" height="32" fill="#080808"/>
+  <text
+    x="1"
+    y="24"
+    font-family="Arial Narrow, Arial, sans-serif"
+    font-size="18"
+    font-weight="bold"
+    fill="none"
+    stroke="#FFD000"
+    stroke-width="1"
+  >AI</text>
+  <text
+    x="14"
+    y="24"
+    font-family="Arial Narrow, Arial, sans-serif"
+    font-size="18"
+    font-weight="bold"
+    fill="#F0EBE1"
+  >M</text>
+</svg>
