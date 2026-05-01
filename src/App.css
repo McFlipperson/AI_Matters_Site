@@ -406,7 +406,7 @@ ul {
   position: fixed;
   inset: 0;
   background: var(--black);
-  z-index: 200;
+  z-index: 600;
   display: flex;
   flex-direction: column;
   padding: 0 10vw;
@@ -1971,6 +1971,50 @@ ul {
   .services-two-col {
     gap: 32px;
   }
+
+  /* Reduce large vertical padding on mobile */
+  .proof-section,
+  .how-section,
+  .services-teaser,
+  .manifesto {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .footer-cta {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
+  .about-left,
+  .contact-left {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .about-right,
+  .contact-right {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  /* WhatsApp link — prevent overflow on small screens */
+  .contact-wa-link {
+    font-size: clamp(28px, 9vw, 48px);
+    word-break: break-word;
+  }
+
+  /* Services language table — horizontal scroll on small screens */
+  .lang-table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Hero heading — prevent long words overflowing */
+  .hero-headline {
+    word-break: break-word;
+  }
 }
 
 /* ============================================================
@@ -1999,6 +2043,29 @@ ul {
 
   .about-name {
     font-size: 40px;
+  }
+}
+
+/* ============================================================
+   TOUCH DEVICES — RESTORE CURSOR, HIDE CUSTOM CROSSHAIR
+   ============================================================ */
+@media (hover: none) and (pointer: coarse) {
+  .cursor {
+    display: none;
+  }
+
+  body,
+  button,
+  a,
+  .btn-primary,
+  .btn-secondary,
+  .btn-secondary-white,
+  .btn-display,
+  .contact-wa-link,
+  .nav-hamburger,
+  .form-submit,
+  .form-field select {
+    cursor: auto;
   }
 }
 
