@@ -534,10 +534,8 @@ ul {
 }
 
 .footer-contact-wa {
-  font-family: var(--font-body);
-  font-size: 20px;
-  color: var(--yellow);
-  display: block;
+  color: #25D366;
+  display: inline-block;
   margin-bottom: 6px;
   transition: opacity 150ms;
 }

@@ -35,11 +35,11 @@ export default function Footer() {
             href={footer.whatsapp.href}
             target="_blank"
             rel="noopener noreferrer"
+            aria-label="Chat on WhatsApp"
           >
-            <svg width="18" height="18" aria-hidden="true" style={{ verticalAlign: 'middle', marginRight: '8px', flexShrink: 0 }}>
+            <svg width="40" height="40" aria-hidden="true">
               <use href="/icons.svg#whatsapp-icon" />
             </svg>
-            {footer.whatsapp.display}
           </a>
           <a
             className="footer-contact-email"
