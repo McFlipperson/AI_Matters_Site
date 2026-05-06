@@ -34,12 +34,12 @@ export const footer = {
   ],
   contactTitle: "CONTACT",
   whatsapp: {
-    display: "wa.me/63XXXXXXXXXX",
-    href: "https://wa.me/63XXXXXXXXXX",
+    display: "+63 976 406 5753",
+    href: "https://wa.me/639764065753",
   },
   email: {
-    display: "hello@aimatters.ph",
-    href: "mailto:hello@aimatters.ph",
+    display: "nova@aimatters.site",
+    href: "mailto:nova@aimatters.site",
   },
   legal: "\u00a9 2026 AI MATTERS \u00b7 ALL RIGHTS RESERVED",
   legalRight: "BOHOL \u00b7 CEBU \u00b7 PHILIPPINES",
@@ -158,7 +158,7 @@ export const home = {
     headline: "ARE YOU IN THE ANSWER?",
     ctaPrimary: {
       label: "WHATSAPP US \u2192",
-      href: "https://wa.me/63XXXXXXXXXX",
+      href: "https://wa.me/639764065753",
     },
     ctaSecondary: {
       label: "SEE OUR WORK \u2192",
@@ -279,13 +279,13 @@ export const contact = {
   whatsapp: {
     label: "FASTEST WAY:",
     display: "WHATSAPP \u2192",
-    href: "https://wa.me/63XXXXXXXXXX",
+    href: "https://wa.me/639764065753",
     note: "We respond during business hours.",
   },
   email: {
     label: "OR EMAIL:",
-    display: "hello@aimatters.ph",
-    href: "mailto:hello@aimatters.ph",
+    display: "nova@aimatters.site",
+    href: "mailto:nova@aimatters.site",
   },
   location: {
     label: "WHERE WE ARE",
@@ -306,11 +306,11 @@ export const contact = {
       { id: "message",  label: "MESSAGE",             type: "textarea", required: false, placeholder: "" },
     ],
     submit: "SEND ENQUIRY \u2192",
-    emailTo: "hello@aimatters.ph",
+    emailTo: "nova@aimatters.site",
     waFallback: {
       text: "Prefer WhatsApp? We do too.",
       linkLabel: " \u2192",
-      href: "https://wa.me/63XXXXXXXXXX",
+      href: "https://wa.me/639764065753",
     },
   },
 };

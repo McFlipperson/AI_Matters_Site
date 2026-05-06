@@ -191,6 +191,9 @@ export default function Home() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <svg width="20" height="20" aria-hidden="true" style={{ verticalAlign: 'middle', marginRight: '10px', flexShrink: 0 }}>
+              <use href="/icons.svg#whatsapp-icon" />
+            </svg>
             {home.footerCta.ctaPrimary.label}
           </a>
           <Link to={home.footerCta.ctaSecondary.path} className="btn-secondary-white">

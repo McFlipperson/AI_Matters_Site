@@ -60,6 +60,9 @@ export default function Contact() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <svg width="32" height="32" aria-hidden="true" style={{ verticalAlign: 'middle', marginRight: '12px', flexShrink: 0 }}>
+              <use href="/icons.svg#whatsapp-icon" />
+            </svg>
             {contact.whatsapp.display}
           </a>
           <span className="contact-wa-note">{contact.whatsapp.note}</span>

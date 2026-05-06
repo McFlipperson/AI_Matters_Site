@@ -38,6 +38,7 @@ html {
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 body {
@@ -47,8 +48,10 @@ body {
   font-size: 20px;
   line-height: 1.9;
   letter-spacing: 0.02em;
-  min-width: 375px;
+  min-width: 0;
   overflow-x: hidden;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
   cursor: none;
 }
 
@@ -202,7 +205,9 @@ ul {
    BUTTON STYLES
    ============================================================ */
 .btn-primary {
-  display: inline-block;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: var(--yellow);
   color: var(--black);
   font-family: var(--font-body);
@@ -2014,6 +2019,37 @@ ul {
   /* Hero heading — prevent long words overflowing */
   .hero-headline {
     word-break: break-word;
+  }
+
+  /* Shrink 30px uppercase labels with heavy letter-spacing — main overflow culprits */
+  .hero-location,
+  .section-number,
+  .case-teaser-label,
+  .case-section-label,
+  .contact-fastest,
+  .contact-email-label,
+  .contact-where-label,
+  .about-role,
+  .about-philosophy-label,
+  .footer-col-title {
+    font-size: 16px;
+    letter-spacing: 2px;
+  }
+
+  .about-location-line {
+    font-size: 16px;
+    letter-spacing: 1px;
+  }
+
+  /* Footer bottom legal text — wraps on narrow screens */
+  .footer-bottom span {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+  }
+
+  /* Nav logo — scale down on small screens */
+  .nav-logo {
+    font-size: 36px;
   }
 }
 

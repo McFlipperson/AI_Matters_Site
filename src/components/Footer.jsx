@@ -36,6 +36,9 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
+            <svg width="18" height="18" aria-hidden="true" style={{ verticalAlign: 'middle', marginRight: '8px', flexShrink: 0 }}>
+              <use href="/icons.svg#whatsapp-icon" />
+            </svg>
             {footer.whatsapp.display}
           </a>
           <a
